@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { useAuth } from "../context/AuthContext";
 import { api } from "../services/api";
-import robotSaludando from "../Img/RobotRopaShop_4_Saludando.png";
-import robotPensando from "../Img/RobotRopaShop_3_Pensando.png";
-import robotExito from "../Img/RobotRopaShop_2_Con_Exito.png";
-import robotError from "../Img/RobotRopaShop_5_Con_Error.png";
-import robotIcon from "../Img/RobotRopaShop_1.png";
-import robot2 from "../Img/RobotRopaShop_2_Con_Exito.png";
-import robot3 from "../Img/RobotRopaShop_3_Pensando.png";
-import robot4 from "../Img/RobotRopaShop_4_Saludando.png";
-import robot5 from "../Img/RobotRopaShop_5_Con_Error.png";
+import robotSaludando from "../img/RobotRopaShop_4_Saludando.png";
+import robotPensando from "../img/RobotRopaShop_3_Pensando.png";
+import robotExito from "../img/RobotRopaShop_2_Con_Exito.png";
+import robotError from "../img/RobotRopaShop_5_Con_Error.png";
+import robotIcon from "../img/RobotRopaShop_1.png";
+import robot2 from "../img/RobotRopaShop_2_Con_Exito.png";
+import robot3 from "../img/RobotRopaShop_3_Pensando.png";
+import robot4 from "../img/RobotRopaShop_4_Saludando.png";
+import robot5 from "../img/RobotRopaShop_5_Con_Error.png";
 
 export default function Profile() {
   const { user, updateUser } = useAuth();
@@ -208,3 +208,4 @@ export default function Profile() {
     </div>
   );
 }
+

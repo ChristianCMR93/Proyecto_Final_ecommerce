@@ -51,3 +51,4 @@ export default function CartItem({ item, onRemove, onUpdateQuantity }) {
   );
 }
 
+

@@ -1,18 +1,18 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { api } from "../services/api";
 import { useAuth } from "../context/AuthContext";
-import robotIcon from "../Img/RobotRopaShop_1.png";
-import robot2 from "../Img/RobotRopaShop_2_Con_Exito.png";
-import robot3 from "../Img/RobotRopaShop_3_Pensando.png";
-import robot4 from "../Img/RobotRopaShop_4_Saludando.png";
-import robot5 from "../Img/RobotRopaShop_5_Con_Error.png";
-import robot6 from "../Img/RobotRopaShop_6_contraseña oculta.png";
-import robot7 from "../Img/RobotRopaShop_7_mostrar contraseña.png";
-import robot8 from "../Img/RobotRopaShop_8_actualizar contraseña.png";
-import robotSuccess from "../Img/RobotRopaShop_2_Con_Exito.png";
-import robotError from "../Img/RobotRopaShop_5_Con_Error.png";
-import robotThinking from "../Img/RobotRopaShop_3_Pensando.png";
-import robotPedidoCamino from "../Img/robotRopaShop_pedido_Camino.png";
+import robotIcon from "../img/RobotRopaShop_1.png";
+import robot2 from "../img/RobotRopaShop_2_Con_Exito.png";
+import robot3 from "../img/RobotRopaShop_3_Pensando.png";
+import robot4 from "../img/RobotRopaShop_4_Saludando.png";
+import robot5 from "../img/RobotRopaShop_5_Con_Error.png";
+import robot6 from "../img/RobotRopaShop_6_contraseña oculta.png";
+import robot7 from "../img/RobotRopaShop_7_mostrar contraseña.png";
+import robot8 from "../img/RobotRopaShop_8_actualizar contraseña.png";
+import robotSuccess from "../img/RobotRopaShop_2_Con_Exito.png";
+import robotError from "../img/RobotRopaShop_5_Con_Error.png";
+import robotThinking from "../img/RobotRopaShop_3_Pensando.png";
+import robotPedidoCamino from "../img/robotRopaShop_pedido_Camino.png";
 
 export default function Orders() {
   const { user, isAuthReady } = useAuth();
@@ -514,4 +514,5 @@ export default function Orders() {
     </div>
   );
 }
+
 
